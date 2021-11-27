@@ -32,6 +32,3 @@ node_modules
 dist
 .DS_Store
 .eslintcache
-
-main_process
-render_process

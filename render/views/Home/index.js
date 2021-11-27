@@ -16,13 +16,7 @@ class Home extends React.Component {
 
   render() {
     return (
-      <Content className="content">
-        <div className="formCon">
-          <h2>第一页</h2>
-          <h2>当前环境：{store.currentEnv}</h2>
-          <h2>接口前缀：{store.currentUrlPrefix}</h2>
-        </div>
-      </Content>
+        <div>hello word electron</div>
     );
   }
 }

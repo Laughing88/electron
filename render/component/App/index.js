@@ -21,9 +21,9 @@ export default class App extends Component {
     return (
       <LocaleProvider locale={zhCN}>
         <Layout className="container">
-          <Nav />
+          <Nav/>
           <Layout className="bodyContainer">
-            <Header />
+            {/*<Header />*/}
             <RouteContent />
           </Layout>
         </Layout>
